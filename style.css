@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+.logo {
+  flex: 1;
+  margin-left: 20px;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.nav li {
+  margin-right: 30px;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  font-size: 18px;
+  color: white;
+}
+.nav a:hover {
+  border-bottom: 3px solid black;
+}
+
+#sel {
+  max-width: 200px;
+  margin-top: 20px;
+}
+span {
+  margin-right: 5px;
+}
